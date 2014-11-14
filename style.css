@@ -1,0 +1,90 @@
+*{
+	font-size:1em;
+	font-family:verdana;
+	margin:0;
+	padding:0;
+	border:none;
+}
+body{
+	padding-top:5%;
+}
+a{
+	text-decoration:none;
+}
+header{
+	width:98%;
+	height:4%;
+	padding:1%;
+	float:left;
+	background:#adadad;
+	font-size:85%;
+	position:fixed;
+	top:0;
+}
+header a{
+	color:black;
+}
+header #dates a{
+	color:#666;
+	padding:0 2% 0 2%;
+	font-family: 'Didact Gothic', sans-serif;	
+}
+header #dates{
+	width:50%;
+	float:left;
+	text-align:left;
+}
+header #trendwatcher{
+	float:right;
+}
+header #trendwatcher a, header #trendwatcher a strong{
+	font-family: 'Didact Gothic', sans-serif;	
+}
+section#stats{
+	padding:1%;
+	color:#adadad;
+	font-size:85%;
+}
+section.source{
+	height:30%;
+	width:31%;
+	padding:1%;
+	float:left;
+}
+section.source a{
+	color:#336699;
+}
+section.source a:hover{
+	color:#ffcc66;
+}
+article{
+	float:left;
+	width:100%;
+	padding:0 1% 1% 0;
+	font-size:70%;
+}
+article .external img{
+	width:20px;
+	height:20px;
+}
+section #speed{
+	float:right;
+	width:30%;
+	height:500px;
+}
+section#similar{
+	float:right;
+	width:30%;
+	height:500px;
+}
+section#similar a{
+	font-size:0.7em;
+}
+div#search{
+	padding:1%;
+	position:fixed;
+	float:right;
+	right:0;
+	bottom:0;
+	background: #adadad;
+}
